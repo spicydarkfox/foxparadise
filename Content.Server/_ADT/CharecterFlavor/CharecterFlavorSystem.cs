@@ -7,6 +7,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using Content.Shared._ADT.CCVar;
 using Content.Shared._ADT.CharecterFlavor;
+using Content.Shared.Cloning.Events;
 using Robust.Shared.Configuration;
 using Robust.Shared.Network;
 using Robust.Shared.Player;
@@ -52,6 +53,16 @@ public sealed class CharecterFlavorSystem : SharedCharecterFlavorSystem
         _config.OnValueChanged(ADTCCVars.HeadshotMaxCacheCount, OnMaxCacheCountChanged, true);
 
         SubscribeNetworkEvent<RequestHeadshotPreviewEvent>(OnRequestHeadshotPreview);
+        SubscribeLocalEvent<CharacterFlavorComponent, CloningEvent>(OnCloning);
+    }
+
+    private void OnCloning(EntityUid uid, CharacterFlavorComponent component, ref CloningEvent args)
+    {
+        var flavor = EnsureComp<CharacterFlavorComponent>(args.CloneUid);
+        flavor.FlavorText = component.FlavorText;
+        flavor.OOCNotes = component.OOCNotes;
+        flavor.HeadshotUrl = component.HeadshotUrl;
+        Dirty(args.CloneUid, flavor);
     }
 
     private void OnMaxCacheCountChanged(int newValue)
