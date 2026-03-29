@@ -12,13 +12,6 @@
     offset: 0
     table: !type:GroupSelector
       children:
-      # Corvax-Resprite-Start
-      - id: PottedPlantAlt0
-      - id: PottedPlantAlt1
-      - id: PottedPlantAlt2
-      - id: PottedPlantAlt3
-      - id: PottedPlantAlt4
-      # Corvax-Resprite-End
       - id: PottedPlant0
       - id: PottedPlant1
       - id: PottedPlant2
@@ -44,6 +37,13 @@
       - id: PottedPlant23
       - id: PottedPlant24
       - id: PottedPlant26
+      # Corvax-Resprite-Start
+      - id: PottedPlantAlt0
+      - id: PottedPlantAlt1
+      - id: PottedPlantAlt2
+      - id: PottedPlantAlt3
+      - id: PottedPlantAlt4
+      # Corvax-Resprite-End
 
 - type: entity
   parent: MarkerBase
