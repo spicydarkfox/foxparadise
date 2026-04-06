@@ -2726,4 +2726,15 @@
   id: 5724
   time: '2026-04-06T09:06:14.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Paradise-Rebornger/pull/212
+- author: Evgencheg
+  changes:
+  - message: "\u0418\u0441\u043F\u0440\u0430\u0432\u043B\u0435\u043D \u043A\u0440\u0430\
+      \u0448 \u043F\u0440\u0438 \u0438\u0437\u0443\u0447\u0435\u043D\u0438\u0438!"
+    type: Fix
+  - message: "\u0418\u0441\u043F\u0440\u0430\u0432\u043B\u0435\u043D \u0442\u0435\u043A\
+      \u0441\u0442 \u0445\u0438\u043C\u0438\u0438!"
+    type: Fix
+  id: 5725
+  time: '2026-04-06T09:08:23.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Paradise-Rebornger/pull/211
 Order: 1
