@@ -1,36 +1,5 @@
 Order: 3
 Entries:
-- author: Wolfkey-SomeoneElseTookMyUsername
-  changes:
-  - message: The recipes for grilled cheese, cotton buns, cotton cakes, and cotton
-      grilled cheese are now in the correct category in the guidebook
-    type: Fix
-  id: 9113
-  time: '2025-10-17T18:56:01.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/40949
-- author: TrixxedHeart
-  changes:
-  - message: Added Enter/Leave Genpop access to Security by default, allowing them
-      to be able to fix Genpop turnstiles with the access configurator if they are
-      destroyed.
-    type: Tweak
-  id: 9114
-  time: '2025-10-18T00:28:44.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/39515
-- author: TrixxedHeart
-  changes:
-  - message: Added Vox Chitter and Clicking emotes
-    type: Add
-  id: 9115
-  time: '2025-10-18T00:28:44.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/40878
-- author: Kittygyat
-  changes:
-  - message: Added a new generic Artistry borg module!
-    type: Add
-  id: 9116
-  time: '2025-10-18T07:13:42.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/39679
 - author: Hitlinemoss
   changes:
   - message: Folders and clipboards now recycle into sensible material components,
@@ -4034,3 +4003,31 @@ Entries:
   id: 9624
   time: '2026-04-06T22:23:53.0000000+00:00'
   url: https://github.com/space-wizards/space-station-14/pull/43462
+- author: SuperGDPWYL
+  changes:
+  - message: Traitors can now be tasked with causing anomalies to go supercritical.
+    type: Add
+  id: 9625
+  time: '2026-04-07T18:59:14.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/43505
+- author: ketufaispikinut
+  changes:
+  - message: Added the tourist's travel camera along with very basic textual photographs.
+    type: Add
+  id: 9626
+  time: '2026-04-07T20:33:23.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/43322
+- author: alexalexmax
+  changes:
+  - message: Items that can be stuck to walls are now able to be unstuck properly.
+    type: Fix
+  id: 9627
+  time: '2026-04-08T04:13:18.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/43514
+- author: TriviaSolari
+  changes:
+  - message: The Station AI is now notified when their core is taking damage.
+    type: Add
+  id: 9628
+  time: '2026-04-08T05:40:02.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/43513
