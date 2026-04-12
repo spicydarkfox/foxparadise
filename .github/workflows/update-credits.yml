@@ -63,4 +63,5 @@ jobs:
           gh pr merge ${{ steps.cpr.outputs.pull-request-number }} \
             --merge-queue \
             --squash \
+            --admin \
             --repo ${{ github.repository }}
