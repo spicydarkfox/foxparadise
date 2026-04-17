@@ -2,12 +2,14 @@
 using Content.Shared.Mind;
 using Content.Shared.Store.Components;
 using Robust.Shared.Prototypes;
+using Robust.Shared.Timing;
 
 namespace Content.Shared.Store;
 
 
 public abstract partial class SharedStoreSystem
 {
+    [Dependency] private readonly IGameTiming _timing = default!;
     /// <summary>
     /// Refreshes all listings on a store.
     /// Do not use if you don't know what you're doing.
@@ -169,7 +171,7 @@ public abstract partial class SharedStoreSystem
 
     private void OnPurchase(ListingData listing) // goob start
     {
-        if (!_proto.TryIndex<ListingPrototype>(listing.ID, out var prototype))
+        if (!Proto.TryIndex<ListingPrototype>(listing.ID, out var prototype))
             return;
 
         // updating restocktime
