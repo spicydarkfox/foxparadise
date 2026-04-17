@@ -38,13 +38,18 @@
     enum.HumanoidVisualLayers.Tail:
       limit: 1
       required: false
+    # Corvax-Sponsors-start
     enum.HumanoidVisualLayers.HeadTop:
-      limit: 3 #LP edit
+      limit: 1
       required: false
+    enum.HumanoidVisualLayers.Tail:
+      limit: 1
+      required: false
+    # Corvax-Sponsors-end
   appearances:
     enum.HumanoidVisualLayers.Hair:
       layerAlpha: 0.72
-      matchSkin: false 
+      matchSkin: false
     enum.HumanoidVisualLayers.FacialHair:
       layerAlpha: 0.72
       matchSkin: false
