@@ -34,16 +34,12 @@
     enum.HumanoidVisualLayers.RFoot:
       limit: 2 #LP edit
       required: false
-#LP edit start
-    enum.HumanoidVisualLayers.Tail:
-      limit: 1
-      required: false
     # Corvax-Sponsors-start
     enum.HumanoidVisualLayers.HeadTop:
-      limit: 1
+      limit: 2
       required: false
     enum.HumanoidVisualLayers.Tail:
-      limit: 1
+      limit: 2
       required: false
     # Corvax-Sponsors-end
   appearances:
