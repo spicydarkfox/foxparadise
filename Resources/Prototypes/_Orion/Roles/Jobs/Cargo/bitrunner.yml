@@ -1,0 +1,21 @@
+- type: job
+  id: Bitrunner
+  name: job-name-bitrunner
+  description: job-description-bitrunner
+  playTimeTracker: JobBitrunner
+  startingGear: CargoTechGear # TODO
+  icon: "JobIconBitrunner"
+  supervisors: job-supervisors-qm
+  requirements:
+    - !type:RoleTimeRequirement
+      role: JobSalvageSpecialist
+      time: 2h
+    - !type:OverallPlaytimeRequirement
+      time: 5h
+  access:
+  - Cargo
+  - Bitrun
+  - Maintenance
+  - LPPCargoConsole
+  extendedAccess:
+  - Salvage

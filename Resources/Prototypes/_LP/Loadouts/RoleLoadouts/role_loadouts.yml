@@ -1,0 +1,27 @@
+- type: roleLoadout
+  id: JobBitrunner
+  groups:
+  - LPunderwearloadout
+  - LPsocksloadout
+  - LPbraloadout
+  - GroupTankHarness
+  - CargoTechnicianHead
+  - CargoTechnicianJumpsuit
+  - CargoTechnicianBackpack
+  - CargoTechnicianOuterClothing
+  - CargoTechnicianShoes
+  - Glasses
+  - Survival
+  - Trinkets
+  - GroupSpeciesBreathTool
+
+- type: chameleonOutfit
+  id: BitrunnerChameleonOutfit
+  job: Bitrunner
+  equipment:
+    head: ClothingHeadHatCargosoft
+    eyes: ClothingEyesGlassesCheapSunglasses
+    mask: ClothingMaskBreath
+    outerClothing: ClothingOuterWinterCargo
+    neck: ClothingNeckScarfStripedBrown
+    gloves: ClothingHandsGlovesFingerless
