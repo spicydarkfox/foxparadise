@@ -4105,4 +4105,13 @@
   id: 5779
   time: '2026-05-24T14:16:07.0000000+00:00'
   url: https://github.com/Lost-Paradise-Project/Paradise-Rebornger/pull/286
+- author: MegaDaimond
+  changes:
+  - message: "\u0418\u0441\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u043E \u043E\u0442\
+      \u0441\u0443\u0442\u0441\u0442\u0432\u0438\u0435 \u0443 \u0431\u0438\u0442\u0440\
+      \u0430\u043D\u043D\u0435\u0440\u043E\u0432 \u041A\u041F\u041A"
+    type: Fix
+  id: 5780
+  time: '2026-05-25T01:53:11.0000000+00:00'
+  url: https://github.com/Lost-Paradise-Project/Paradise-Rebornger/pull/287
 Order: 1
