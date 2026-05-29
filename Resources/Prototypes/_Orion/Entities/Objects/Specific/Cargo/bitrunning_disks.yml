@@ -36,6 +36,15 @@
       bitrunning-disk-option-pizza-box: FoodBoxPizza
       # bitrunning-disk-option-medical-beam-gun: MedicalBeamGun
       bitrunning-disk-option-c4: C4
+#LP edit start
+      bitrunning-disk-option-suitbomb: ClothingOuterSuitBomb
+      bitrunning-disk-option-suitbombhelm: ClothingHeadHelmetBombSuit
+      bitrunning-disk-option-gladiator: ClothingOuterArmorGladiator
+      bitrunning-disk-option-cagehelm: ClothingHeadHatHelmetCage
+      bitrunning-disk-option-garfield: LPPOuterClothingGarfield
+      bitrunning-disk-option-salvagerhelm: LPPClothingHeadHelmetSalvager
+      bitrunning-disk-option-spearbone: SpearBone
+#LP edit end
 
 - type: entity
   parent: BaseBitrunningDisk
@@ -48,6 +57,18 @@
     options:
       bitrunning-disk-option-viper: WeaponPistolViper
       bitrunning-disk-option-armor-vest: ClothingOuterArmorBasic
+#LP edit start
+      bitrunning-disk-option-gusoku: ClothingOuterArmorTouseiGusoku
+      bitrunning-disk-option-scraparmor: ClothingOuterArmorScrap
+      bitrunning-disk-option-scraphelm: ClothingHeadHelmetScrap
+      bitrunning-disk-option-bonearmor: ClothingOuterArmorBone
+      bitrunning-disk-option-bonehelm: ClothingHeadHelmetBone
+      bitrunning-disk-option-swatepictemic: LPPlothingOuterArmorSwatEpistemic
+      bitrunning-disk-option-swatepictemichelm: LPPClothingHeadHelmetSwatEpistemic
+      bitrunning-disk-option-templararmor: ClothingOuterArmorTemplar
+      bitrunning-disk-option-templarhelm: ClothingHeadHatHelmetTemplar
+      bitrunning-disk-option-spearuranium: SpearUranium
+#LP edit end
 
 - type: entity
   parent: BaseBitrunningDisk
@@ -58,10 +79,16 @@
   - type: BitrunningAbilityDisk
     grantMode: Item
     options:
-      bitrunning-disk-option-advanced-laser-gun: WeaponAdvancedLaser
-      bitrunning-disk-option-double-energy-sword: EnergySwordDouble
-      bitrunning-disk-option-energy-scythe: LPPEnergyscythe
-      bitrunning-disk-option-syndicate-mini-bomb: SyndieMiniBomb
+#LP edit start
+      bitrunning-disk-option-advanced-laser-gun: WeaponEnergyGunPistol
+      # bitrunning-disk-option-double-energy-sword: EnergySwordDouble
+      # bitrunning-disk-option-energy-scythe: LPPEnergyscythe
+      # bitrunning-disk-option-syndicate-mini-bomb: SyndieMiniBomb
+      bitrunning-disk-option-phoron-dagger: PhoronDagger
+      bitrunning-disk-option-fireaxe: FireAxe
+      bitrunning-disk-option-helmetswat: ClothingHeadHelmetSwat
+      bitrunning-disk-option-toolboxrobust: WeaponMeleeToolboxRobust
+#LP edit end
 
 - type: entity
   parent: BaseBitrunningDisk
@@ -72,8 +99,11 @@
   - type: BitrunningAbilityDisk
     grantMode: Action
     options:
+#LP edit start балансные правки
       bitrunning-disk-option-summon-cheese: ActionBitrunningProgramBasicCheese
-      bitrunning-disk-option-lesser-heal: ActionBitrunningProgramBasicLesserHeal
+      # bitrunning-disk-option-lesser-heal: ActionBitrunningProgramBasicLesserHeal
+      bitrunning-disk-option-force-wall: ActionForceWall
+#LP edit end
 
 - type: entity
   parent: BaseBitrunningDisk
@@ -84,8 +114,11 @@
   - type: BitrunningAbilityDisk
     grantMode: Action
     options:
-      bitrunning-disk-option-fireball: ActionFireball
-      bitrunning-disk-option-force-wall: ActionForceWall
+#LP edit start балансные правки
+      bitrunning-disk-option-bear-morph: ActionBitrunningProgramEliteBear
+      # bitrunning-disk-option-force-wall: ActionForceWall
+      bitrunning-disk-option-lesser-heal: ActionBitrunningProgramBasicLesserHeal
+#LP edit end
 
 - type: entity
   parent: BaseBitrunningDisk
@@ -98,6 +131,7 @@
     options:
       bitrunning-disk-option-dragon-morph: ActionBitrunningProgramEliteDragon
       bitrunning-disk-option-bear-morph: ActionBitrunningProgramEliteBear
+      bitrunning-disk-option-fireball: ActionFireball #LP edit баланс
 
 - type: entity
   parent: BaseBitrunningDisk
@@ -146,6 +180,7 @@
     options:
       bitrunning-disk-option-proto-kinetic-crusher: WeaponCrusher
       bitrunning-disk-option-proto-kinetic-glaive: WeaponCrusherGlaive
+      bitrunning-disk-option-proto-kinetic-claws: LavalandWeaponKineticClaws #LP edit
 
 - type: entity
   parent: BaseBitrunningDisk
@@ -158,3 +193,4 @@
     options:
       bitrunning-disk-option-proto-kinetic-hammer: LavalandWeaponKineticHammer
       bitrunning-disk-option-proto-kinetic-machete: LavalandWeaponKineticMachete
+      bitrunning-disk-option-proto-kinetic-spear: LavalandWeaponKineticSpear #LP edit
