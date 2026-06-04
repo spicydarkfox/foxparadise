@@ -1,0 +1,144 @@
+
+- type: entity
+  parent: MobHuman
+  id: LPPMobCyberpoliceBitrunEasy
+  name: cyberpolice officer
+  components:
+  - type: Loadout
+    prototypes: [ BitrunnerCyberPoliceEasy ]
+  - type: RandomHumanoidAppearance
+  - type: NpcFactionMember
+    factions:
+    - AllHostile
+
+- type: entity
+  parent: MobHuman
+  id: LPPMobCyberpoliceBitrunEasyMelee
+  name: cyberpolice officer melee
+  components:
+  - type: Loadout
+    prototypes: [ BitrunnerCyberPoliceEasyMelee ]
+  - type: RandomHumanoidAppearance
+  - type: NpcFactionMember
+    factions:
+    - AllHostile
+
+- type: entity
+  parent: MobHuman
+  id: LPPMobCyberpoliceBitrunEasyAntilaser
+  name: cyberpolice officer antilaser
+  components:
+  - type: Loadout
+    prototypes: [ BitrunnerCyberPoliceEasyMeleeAntilaser ]
+  - type: RandomHumanoidAppearance
+  - type: NpcFactionMember
+    factions:
+    - AllHostile
+
+- type: entity
+  parent: MobHuman
+  id: LPPMobCyberpoliceBitrunMedium
+  name: cyberpolice swat
+  components:
+  - type: Loadout
+    prototypes: [ BitrunnerCyberPoliceMedium ]
+  - type: RandomHumanoidAppearance
+  - type: NpcFactionMember
+    factions:
+    - AllHostile
+
+- type: entity
+  parent: MobHuman
+  id: LPPMobCyberpoliceBitrunMediumMelee
+  name: cyberpolice swat melee
+  components:
+  - type: Loadout
+    prototypes: [ BitrunnerCyberPoliceMediumMelee ]
+  - type: RandomHumanoidAppearance
+  - type: NpcFactionMember
+    factions:
+    - AllHostile
+
+- type: entity
+  parent: MobHuman
+  id: LPPMobCyberpoliceBitrunMediumAntilaser
+  name: cyberpolice swat antilaser
+  components:
+  - type: Loadout
+    prototypes: [ BitrunnerCyberPoliceMediumAntilaser ]
+  - type: RandomHumanoidAppearance
+  - type: NpcFactionMember
+    factions:
+    - AllHostile
+
+- type: entity
+  parent: MobHuman
+  id: LPPMobCyberpoliceBitrunHard
+  name: cyberpolice swat elite
+  components:
+  - type: Loadout
+    prototypes: [ BitrunnerCyberPoliceHard ]
+  - type: RandomHumanoidAppearance
+  - type: NpcFactionMember
+    factions:
+    - AllHostile
+
+- type: entity
+  parent: MobHuman
+  id: LPPMobCyberpoliceBitrunHardMelee
+  name: cyberpolice swat elite melee
+  components:
+  - type: Loadout
+    prototypes: [ BitrunnerCyberPoliceHardMelee ]
+  - type: RandomHumanoidAppearance
+  - type: NpcFactionMember
+    factions:
+    - AllHostile
+
+- type: entity
+  parent: MobHuman
+  id: LPPMobCyberpoliceBitrunHardAntilaser
+  name: cyberpolice swat elite antilaser
+  components:
+  - type: Loadout
+    prototypes: [ BitrunnerCyberPoliceHardAntilaser ]
+  - type: RandomHumanoidAppearance
+  - type: NpcFactionMember
+    factions:
+    - AllHostile
+
+- type: entity
+  parent: MobHuman
+  id: LPPMobCyberpoliceBitrunExtreme
+  name: cyberpolice specops
+  components:
+  - type: Loadout
+    prototypes: [ BitrunnerCyberPoliceExtreme ]
+  - type: RandomHumanoidAppearance
+  - type: NpcFactionMember
+    factions:
+    - AllHostile
+
+- type: entity
+  parent: MobHuman
+  id: LPPMobCyberpoliceBitrunExtremeMelee
+  name: cyberpolice specops melee
+  components:
+  - type: Loadout
+    prototypes: [ BitrunnerCyberPoliceExtremeMelee ]
+  - type: RandomHumanoidAppearance
+  - type: NpcFactionMember
+    factions:
+    - AllHostile
+
+- type: entity
+  parent: MobHuman
+  id: LPPMobCyberpoliceBitrunExtremeAntilaser
+  name: cyberpolice specops antilaser
+  components:
+  - type: Loadout
+    prototypes: [ BitrunnerCyberPoliceExtremeAntilaser ]
+  - type: RandomHumanoidAppearance
+  - type: NpcFactionMember
+    factions:
+    - AllHostile

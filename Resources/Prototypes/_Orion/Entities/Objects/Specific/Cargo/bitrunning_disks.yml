@@ -1,0 +1,196 @@
+- type: entity
+  parent: BaseItem
+  id: BaseBitrunningDisk
+  abstract: true
+  name: bitrunning disk
+  description: A specialized data disk for bitrunning supply systems.
+  components:
+  - type: Sprite
+    sprite: _Orion/Objects/Specific/Research/data_disk.rsi
+    state: icon
+  - type: Item
+    size: Tiny
+  - type: UserInterface
+    interfaces:
+      enum.BitrunningDiskUiKey.Key:
+        type: BitrunningDiskBoundUserInterface
+
+- type: entity
+  parent: BaseBitrunningDisk
+  id: BitrunningExtensionPlayerAppearanceDisk
+  name: "bitrunning extension: digital appearance"
+  description: Lets your avatar load your appearance instead of the default human shell.
+  components:
+  - type: BitrunningProfileDisk
+
+# TODO: Add medbeam gun from goob
+- type: entity
+  parent: BaseBitrunningDisk
+  id: BitrunningGearSimpleDisk
+  name: "bitrunning gear: simple"
+  description: Use in hand to choose a one-time gear package.
+  components:
+  - type: BitrunningAbilityDisk
+    grantMode: Item
+    options:
+      bitrunning-disk-option-pizza-box: FoodBoxPizza
+      # bitrunning-disk-option-medical-beam-gun: MedicalBeamGun
+      bitrunning-disk-option-c4: C4
+#LP edit start
+      bitrunning-disk-option-suitbomb: ClothingOuterSuitBomb
+      bitrunning-disk-option-suitbombhelm: ClothingHeadHelmetBombSuit
+      bitrunning-disk-option-gladiator: ClothingOuterArmorGladiator
+      bitrunning-disk-option-cagehelm: ClothingHeadHatHelmetCage
+      bitrunning-disk-option-garfield: LPPOuterClothingGarfield
+      bitrunning-disk-option-salvagerhelm: LPPClothingHeadHelmetSalvager
+      bitrunning-disk-option-spearbone: SpearBone
+#LP edit end
+
+- type: entity
+  parent: BaseBitrunningDisk
+  id: BitrunningGearComplexDisk
+  name: "bitrunning gear: complex"
+  description: Use in hand to choose a one-time gear package.
+  components:
+  - type: BitrunningAbilityDisk
+    grantMode: Item
+    options:
+      bitrunning-disk-option-viper: WeaponPistolViper
+      bitrunning-disk-option-armor-vest: ClothingOuterArmorBasic
+#LP edit start
+      bitrunning-disk-option-gusoku: ClothingOuterArmorTouseiGusoku
+      bitrunning-disk-option-scraparmor: ClothingOuterArmorScrap
+      bitrunning-disk-option-scraphelm: ClothingHeadHelmetScrap
+      bitrunning-disk-option-bonearmor: ClothingOuterArmorBone
+      bitrunning-disk-option-bonehelm: ClothingHeadHelmetBone
+      bitrunning-disk-option-swatepictemic: LPPlothingOuterArmorSwatEpistemic
+      bitrunning-disk-option-swatepictemichelm: LPPClothingHeadHelmetSwatEpistemic
+      bitrunning-disk-option-templararmor: ClothingOuterArmorTemplar
+      bitrunning-disk-option-templarhelm: ClothingHeadHatHelmetTemplar
+      bitrunning-disk-option-spearuranium: SpearUranium
+#LP edit end
+
+- type: entity
+  parent: BaseBitrunningDisk
+  id: BitrunningGearAdvancedDisk
+  name: "bitrunning gear: advanced"
+  description: Use in hand to choose a one-time gear package.
+  components:
+  - type: BitrunningAbilityDisk
+    grantMode: Item
+    options:
+#LP edit start
+      bitrunning-disk-option-advanced-laser-gun: WeaponEnergyGunPistol
+      # bitrunning-disk-option-double-energy-sword: EnergySwordDouble
+      # bitrunning-disk-option-energy-scythe: LPPEnergyscythe
+      # bitrunning-disk-option-syndicate-mini-bomb: SyndieMiniBomb
+      bitrunning-disk-option-phoron-dagger: PhoronDagger
+      bitrunning-disk-option-fireaxe: FireAxe
+      bitrunning-disk-option-helmetswat: ClothingHeadHelmetSwat
+      bitrunning-disk-option-toolboxrobust: WeaponMeleeToolboxRobust
+#LP edit end
+
+- type: entity
+  parent: BaseBitrunningDisk
+  id: BitrunningProgramBasicDisk
+  name: "bitrunning program: basic"
+  description: Use in hand to choose one program action.
+  components:
+  - type: BitrunningAbilityDisk
+    grantMode: Action
+    options:
+#LP edit start балансные правки
+      bitrunning-disk-option-summon-cheese: ActionBitrunningProgramBasicCheese
+      # bitrunning-disk-option-lesser-heal: ActionBitrunningProgramBasicLesserHeal
+      bitrunning-disk-option-force-wall: ActionForceWall
+#LP edit end
+
+- type: entity
+  parent: BaseBitrunningDisk
+  id: BitrunningProgramComplexDisk
+  name: "bitrunning program: complex"
+  description: Use in hand to choose one program action.
+  components:
+  - type: BitrunningAbilityDisk
+    grantMode: Action
+    options:
+#LP edit start балансные правки
+      bitrunning-disk-option-bear-morph: ActionBitrunningProgramEliteBear
+      # bitrunning-disk-option-force-wall: ActionForceWall
+      bitrunning-disk-option-lesser-heal: ActionBitrunningProgramBasicLesserHeal
+#LP edit end
+
+- type: entity
+  parent: BaseBitrunningDisk
+  id: BitrunningProgramEliteDisk
+  name: "bitrunning program: elite"
+  description: Use in hand to choose one program action.
+  components:
+  - type: BitrunningAbilityDisk
+    grantMode: Action
+    options:
+      bitrunning-disk-option-dragon-morph: ActionBitrunningProgramEliteDragon
+      bitrunning-disk-option-bear-morph: ActionBitrunningProgramEliteBear
+      bitrunning-disk-option-fireball: ActionFireball #LP edit баланс
+
+- type: entity
+  parent: BaseBitrunningDisk
+  id: BitrunningGimmickSportsDisk
+  name: "bitrunning gimmick: sports"
+  description: Will grant a selectable sports loadout case in a future update.
+
+- type: entity
+  parent: BaseBitrunningDisk
+  id: BitrunningGimmickDungeonCrawlingDisk
+  name: "bitrunning gimmick: dungeon crawling"
+  description: Will grant a selectable dungeon crawling loadout case in a future update.
+
+- type: entity
+  parent: BaseBitrunningDisk
+  id: BitrunningGearPKAModsDisk
+  name: "bitrunning gear: proto-kinetic accelerator mods"
+  description: Use in hand to choose a one-time gear package.
+  components:
+  - type: BitrunningAbilityDisk
+    grantMode: Item
+    options:
+      bitrunning-disk-option-range-modkit: PKAUpgradeRange
+      bitrunning-disk-option-fire-rate-modkit: PKAUpgradeFireRate
+
+- type: entity
+  parent: BaseBitrunningDisk
+  id: BitrunningGearPremiumPKAModsDisk
+  name: "bitrunning gear: premium proto-kinetic accelerator mods"
+  description: Use in hand to choose a one-time gear package.
+  components:
+  - type: BitrunningAbilityDisk
+    grantMode: Item
+    options:
+      bitrunning-disk-option-damage-modkit: PKAUpgradeDamage
+      # bitrunning-disk-option-space-modkit: PKAUpgradeSpace
+
+- type: entity
+  parent: BaseBitrunningDisk
+  id: BitrunningGearCrusherModsDisk
+  name: "bitrunning gear: proto-kinetic crusher mods"
+  description: Use in hand to choose a one-time gear package.
+  components:
+  - type: BitrunningAbilityDisk
+    grantMode: Item
+    options:
+      bitrunning-disk-option-proto-kinetic-crusher: WeaponCrusher
+      bitrunning-disk-option-proto-kinetic-glaive: WeaponCrusherGlaive
+      bitrunning-disk-option-proto-kinetic-claws: LavalandWeaponKineticClaws #LP edit
+
+- type: entity
+  parent: BaseBitrunningDisk
+  id: BitrunningGearPremiumCrusherModsDisk
+  name: "bitrunning gear: premium proto-kinetic crusher mods"
+  description: Use in hand to choose a one-time gear package.
+  components:
+  - type: BitrunningAbilityDisk
+    grantMode: Item
+    options:
+      bitrunning-disk-option-proto-kinetic-hammer: LavalandWeaponKineticHammer
+      bitrunning-disk-option-proto-kinetic-machete: LavalandWeaponKineticMachete
+      bitrunning-disk-option-proto-kinetic-spear: LavalandWeaponKineticSpear #LP edit

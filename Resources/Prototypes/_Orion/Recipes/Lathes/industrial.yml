@@ -1,0 +1,19 @@
+- type: latheRecipe
+  parent: [ BaseGoldCircuitboardRecipe, BaseSupplyMachineRecipeCategory ]
+  id: QuantumConsoleCircuitboard
+  result: QuantumConsoleCircuitboard
+
+- type: latheRecipe
+  parent: [ BaseGoldCircuitboardRecipe, BaseSupplyMachineRecipeCategory ]
+  id: QuantumServerMachineCircuitboard
+  result: QuantumServerMachineCircuitboard
+
+- type: latheRecipe
+  parent: [ BaseGoldCircuitboardRecipe, BaseSupplyMachineRecipeCategory ]
+  id: NetpodMachineCircuitboard
+  result: NetpodMachineCircuitboard
+
+- type: latheRecipe
+  parent: [ BaseGoldCircuitboardRecipe, BaseSupplyMachineRecipeCategory ]
+  id: ByteforgeMachineCircuitboard
+  result: ByteforgeMachineCircuitboard
