@@ -155,7 +155,7 @@
   - type: PowerConsumer
     voltage: Medium
   - type: ExtensionCableReceiver
-    drawRate: 10000
+    drawRate: 4500
   - type: Construction
     graph: ThrusterLarge
     node: final

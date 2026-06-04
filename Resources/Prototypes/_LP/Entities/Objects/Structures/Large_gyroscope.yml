@@ -122,8 +122,8 @@
         enum.ConstructionVisuals.Layer:
           missingWires: { state: frame_0 }
           machineFrame: { state: frame_1 }
-          circuitInserted: { state: frame_1 }
-          circuitFixed: { state: frame_2 }
+          circuitInserted: { state: frame_2 }
+          circuitFixed: { state: frame_3 }
   - type: Destructible
     thresholds:
     - trigger:
