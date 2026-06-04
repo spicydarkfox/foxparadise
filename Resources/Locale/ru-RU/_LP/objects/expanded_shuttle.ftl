@@ -7,4 +7,3 @@ ent-LPPLargeGyroscopeConstruction = Каркас большого гироско
     .desc = Крупный гироскопический механизм, способный обрабатывать данные быстрее обычного
 
 ent-LPPLargeThrusterConstruction = Каркас большого ракетного двигателя
-
