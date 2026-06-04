@@ -47,10 +47,32 @@
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 150
+        damage: 500         # LP edit
       behaviors:
       - !type:DoActsBehavior
         acts: ["Breakage"]
+    # LP edit end
+    - trigger:
+        !type:DamageTrigger
+        damage: 2000
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          collection: MetalBreak
+      - !type:SpawnEntitiesBehavior
+        spawn:
+          ShardUranium1:
+            min: 1
+            max: 5
+          ShardPlasteel1:
+            min: 5
+            max: 15
+          AnomalyCoreGravity:
+            min: 1
+            max: 1
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
+  # LP edit end
   - type: PowerCharge
     windowTitle: gravity-generator-window-title
     idlePower: 50
@@ -59,7 +81,6 @@
     lightRadiusMin: 0.75
     lightRadiusMax: 2.5
     spriteMap:
-      broken: "broken"
       unpowered: "off"
       off: "off"
       on: "on"
@@ -79,6 +100,21 @@
     color: "#a8ffd9"
   - type: StaticPrice
     price: 5000
+  # LP edit start
+  - type: Construction
+    graph: GravityGen
+    node: final
+  - type: ContainerContainer
+    containers:
+      board: !type:Container
+      anomaly: !type:Container
+  - type: ContainerFill
+    containers:
+      board:
+      - LPPGravityGeneratorCircuitboard
+      anomaly:
+      - AnomalyCoreGravity
+  # LP edit end
 
 - type: entity
   id: GravityGeneratorMini
