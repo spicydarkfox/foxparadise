@@ -1,3 +1,6 @@
+ent-ClothingHeadHelmetBasicAlt = { ent-ClothingHeadHelmetBasic }
+    .desc = { ent-ClothingHeadHelmetBasic.desc }
+    .suffix = Альтернативное
 ent-ClothingHeadHatHelmetTemplar = шлем времён крестовых походов
     .desc = Deus Vult.
 ent-ClothingHeadHatHelmetCage = клетка на голову
