@@ -154,8 +154,8 @@
   # LP edit start: на каждый двигатель ставить лкп невыгодно и неудобно
   - type: PowerConsumer
     voltage: Medium
-  - type: ExtensionCableReceiver
-    drawRate: 4500
+  - type: ApcPowerReceiver
+    powerLoad: 4500
   - type: Construction
     graph: ThrusterLarge
     node: final

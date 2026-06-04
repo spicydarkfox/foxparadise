@@ -61,10 +61,10 @@
           collection: MetalBreak
       - !type:SpawnEntitiesBehavior
         spawn:
-          ShardUranium1:
+          SheetUranium1:
             min: 1
             max: 5
-          ShardPlasteel1:
+          SheetPlasteel1:
             min: 5
             max: 15
           AnomalyCoreGravity:

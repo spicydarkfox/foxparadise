@@ -135,7 +135,7 @@
           collection: MetalBreak
       - !type:SpawnEntitiesBehavior
         spawn:
-          Steel:
+          SheetSteel1:
             min: 2
             max: 5
   - type: Construction
