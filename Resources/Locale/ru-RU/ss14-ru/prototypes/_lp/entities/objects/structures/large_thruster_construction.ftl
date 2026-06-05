@@ -1,2 +1,2 @@
-ent-LPPLargeThrusterConstruction = large thruster construction
+ent-LPPLargeThrusterConstruction = Каркас большого ракетного двигателя
     .desc = { ent-BaseStructureDynamic.desc }
