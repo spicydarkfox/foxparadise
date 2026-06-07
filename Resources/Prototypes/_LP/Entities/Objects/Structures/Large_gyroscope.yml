@@ -45,8 +45,6 @@
     autoRot: true
     offset: "0, 0.5" # shine from the top, not bottom of the computer
     color: "#4246b3"
-  - type: Machine
-    board: GyroscopeMachineCircuitboard
   - type: Destructible
     thresholds:
     - trigger:
@@ -69,8 +67,6 @@
   - type: Damageable
     damageContainer: StructuralInorganic
     damageModifierSet: Electronic
-  - type: StaticPrice
-    price: 4000
   - type: PowerCharge
     idlePower: 15
     activePower: 200
