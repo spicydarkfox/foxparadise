@@ -497,7 +497,7 @@
       edges:
         - to: circuitInserted
           completed:
-          - !type:SpawnPrototypeAtContainer   #гарантируем, что пвещи будут на месте
+          - !type:SpawnPrototypeAtContainer   #гарантируем, что вещи будут на месте
             container: board
             prototype: LPPLargeGyroscopeCircuitboard
             amount: 1
