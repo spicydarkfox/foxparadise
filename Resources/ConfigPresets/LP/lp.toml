@@ -107,5 +107,5 @@ announce_voice = "glados"
 [adminlogs]
 high_log_playtime = -1
 
-[shuttle]
-mass_limit = 0
+#[shuttle]
+#mass_limit = 0
